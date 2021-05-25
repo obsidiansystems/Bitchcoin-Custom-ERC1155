@@ -1915,7 +1915,7 @@ abstract contract OwnableUpgradeable is Initializable, ContextUpgradeable {
  * and pauser roles to other accounts.
  */
 
-contract ERC1155PresetMinterPauserUpgradeable is Initializable, ContextUpgradeable, AccessControlEnumerableUpgradeable, ERC1155BurnableUpgradeable, ERC1155PausableUpgradeable, OwnableUpgradeable {
+contract BitchcoinPetalsContract is Initializable, ContextUpgradeable, AccessControlEnumerableUpgradeable, ERC1155BurnableUpgradeable, ERC1155PausableUpgradeable, OwnableUpgradeable {
     function initialize(string memory uri) public virtual initializer {
         __ERC1155PresetMinterPauser_init(uri);
     }
