@@ -515,4 +515,3 @@ contract Patience is Context, Ownable, ERC165, IERC721, IERC721Metadata {
         uint256 tokenId
     ) internal virtual {}
 }
-© 2021 GitHub, Inc.
