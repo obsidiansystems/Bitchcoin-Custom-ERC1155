@@ -11,5 +11,6 @@ This is a flattened contract based on OpenZepplin's [ERC721.sol](https://github.
 
 Changes:
 - Added `Owner` function. This modification was necessary to allow ownership from within NFT marketplaces.
-- Added Base_URI, Artist_Address, NFT_id functions
+- Added `Base_URI`, `Artist_Address`, `NFT_id` functions
 - Added single mint in the main constructor. As this base contract does not implement mint/burn as external functions, this has the affect of creating an NFT contract for a single NFT, which can't be duplicated (minted) or destroyed.
+- Removed `Symbol`
